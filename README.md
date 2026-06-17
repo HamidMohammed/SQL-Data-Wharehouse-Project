@@ -1,7 +1,4 @@
-# SQL-Data-Wharehouse-Project
-
-
-# Gravity Books Business Intelligence Platform
+# SQL-Data-Wharehouse-Project (Gravity Books)
 
 ## Overview
 
