@@ -71,12 +71,16 @@ The source database follows a Third Normal Form (3NF) transactional design conta
 * Order Lines
 * Shipping Methods
 * Order Status History
+![transactional_erd Screenshot](docs/transactional_erd.png)
+### more visable 
+![transactional_erd_enhanced Screenshot](docs/transactional_erd_enhanced.png)
 
 ---
 
 # Data Warehouse Design
 
 The warehouse follows the Kimball dimensional modeling approach.
+![dimensionalmodeling Screenshot](docs/dimensional_model.png)
 
 ## Fact Tables
 
@@ -186,7 +190,7 @@ The ETL solution was developed using SSIS.
 
 ## Package Execution Flow
 
-(Insert your Master ETL screenshot here)
+![Master Screenshot](docs/ssas/Master.png)
 
 ```text
 DimDate
@@ -216,7 +220,7 @@ Features:
 * Automated Calendar Creation
 * Truncate-and-Load Strategy
 
-(Insert DimDate Screenshot)
+![DimDate Screenshot](docs/ssas/DimDate.png)
 
 ---
 
@@ -229,7 +233,7 @@ Features:
 * Change Detection
 * Automatic Versioning
 
-(Insert DimCustomer Screenshot)
+![DimCustomer Screenshot](docs/ssas/DimCustomer.png)
 
 ---
 
@@ -240,7 +244,7 @@ Features:
 * Business Key Lookup
 * Type 1 Updates
 
-(Insert DimBook Screenshot)
+![DimBook Screenshot](docs/ssas/DimBook.png)
 
 ---
 
@@ -251,6 +255,7 @@ Features:
 * Author Dimension Population
 
 (Insert DimAuthor Screenshot)
+![DimAuthor Screenshot](docs/ssas/DimAuthor.png)
 
 ---
 
@@ -262,6 +267,7 @@ Features:
 * Many-to-Many Relationship Management
 
 (Insert Bridge Screenshot)
+![Bridge Screenshot](docs/ssas/Bridge.png)
 
 ---
 
@@ -274,6 +280,7 @@ Features:
 * Surrogate Key Resolution
 
 (Insert FactSales Screenshot)
+![FactSales Screenshot](docs/ssas/FactSales.png)
 
 ---
 
@@ -285,6 +292,8 @@ Features:
 * Order Lifecycle Tracking
 
 (Insert FactOrderStatus Screenshot)
+![FactOrderStatus Screenshot](docs/ssas/FactOrderStatus.png)
+
 
 ---
 
@@ -328,7 +337,8 @@ Implementation:
 * Revenue Growth
 * Delivery Duration
 
-(Add SSAS screenshots later)
+
+![SSAS Screenshot](docs/ssas/ssas.png)
 
 ---
 
@@ -352,7 +362,7 @@ The reporting layer provides:
 * Shipping Performance
 * Order Lifecycle Metrics
 
-(Add Power BI screenshots later)
+![dashboard Screenshot](docs/dashboards/dashboard.png)
 
 ---
 
