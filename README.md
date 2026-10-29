@@ -362,7 +362,7 @@ The reporting layer provides:
 * Shipping Performance
 * Order Lifecycle Metrics
 
-![dashboard Screenshot](docs/dashboards/dashboard.png)
+![dashboard Screenshot](docs/dashboard.png)
 
 ---
 
